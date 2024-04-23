@@ -1,0 +1,287 @@
+digraph {
+  node [ fontname = "Input Sans"; shape = rect ];
+  newrank = true;
+  splines = ortho;
+  concentrate = true;
+
+  subgraph "cluster_alfa" {
+    rankdir = TB;
+    color = "#81b3d6";
+    node [ color = "#81b3d6" ];
+    edge [ color = "#81b3d6" ];
+    label = "alfa";
+    rank = min;
+    "alfa/toml" [ label = "toml" ];
+    "alfa/etikett_rule" [ label = "etikett_rule" ];
+    "alfa/coordinates" [ label = "coordinates" ];
+    "alfa/schnittstellen" [ label = "schnittstellen" ];
+    "alfa/reset" [ label = "reset" ];
+    "alfa/angeboren" [ label = "angeboren" ];
+    "alfa/erworben_cli_print_options" [ label = "erworben_cli_print_options" ];
+    "alfa/gattung_format_value" [ label = "gattung_format_value" ];
+    "alfa/exec" [ label = "exec" ];
+    "alfa/errors" [ label = "errors" ];
+    "alfa/vim_cli_options_builder" [ label = "vim_cli_options_builder" ];
+    "alfa/unicorn" [ label = "unicorn" ];
+  }
+
+
+  subgraph "cluster_bravo" {
+    rankdir = TB;
+    color = "#628f40";
+    node [ color = "#628f40" ];
+    edge [ color = "#628f40" ];
+    label = "bravo";
+    rank = min;
+    "bravo/string_builder_joined" [ label = "string_builder_joined" ];
+    "bravo/test_logz" [ label = "test_logz" ];
+    "bravo/iter" [ label = "iter" ];
+    "bravo/values" [ label = "values" ];
+    "bravo/todo" [ label = "todo" ];
+    "bravo/equals" [ label = "equals" ];
+    "bravo/checkout_mode" [ label = "checkout_mode" ];
+    "bravo/expansion" [ label = "expansion" ];
+    "bravo/equality" [ label = "equality" ];
+    "bravo/objekte_mode" [ label = "objekte_mode" ];
+    "bravo/erworben_tools" [ label = "erworben_tools" ];
+    "bravo/files" [ label = "files" ];
+    "bravo/log" [ label = "log" ];
+    "bravo/id" [ label = "id" ];
+    "bravo/alfred" [ label = "alfred" ];
+    "bravo/pool" [ label = "pool" ];
+  }
+
+
+  subgraph "cluster_charlie" {
+    rankdir = TB;
+    color = "#f8a6c7";
+    node [ color = "#f8a6c7" ];
+    edge [ color = "#f8a6c7" ];
+    label = "charlie";
+    rank = min;
+    "charlie/checkout_options" [ label = "checkout_options" ];
+    "charlie/ohio_buffer" [ label = "ohio_buffer" ];
+    "charlie/collections_value" [ label = "collections_value" ];
+    "charlie/iter2" [ label = "iter2" ];
+    "charlie/collections_slice_set" [ label = "collections_slice_set" ];
+    "charlie/tridex" [ label = "tridex" ];
+    "charlie/string_format_writer" [ label = "string_format_writer" ];
+    "charlie/exec_editor" [ label = "exec_editor" ];
+    "charlie/script_config" [ label = "script_config" ];
+    "charlie/catgut" [ label = "catgut" ];
+    "charlie/hinweisen" [ label = "hinweisen" ];
+    "charlie/trie" [ label = "trie" ];
+    "charlie/age" [ label = "age" ];
+    "charlie/sha" [ label = "sha" ];
+    "charlie/gattung" [ label = "gattung" ];
+    "charlie/file_lock" [ label = "file_lock" ];
+    "charlie/collections" [ label = "collections" ];
+    "charlie/collections_ptr" [ label = "collections_ptr" ];
+    "charlie/script_value" [ label = "script_value" ];
+    "charlie/debug" [ label = "debug" ];
+  }
+
+
+  subgraph "cluster_delta" {
+    rankdir = TB;
+    color = "#09f303";
+    node [ color = "#09f303" ];
+    edge [ color = "#09f303" ];
+    label = "delta";
+    rank = min;
+    "delta/standort" [ label = "standort" ];
+    "delta/checked_out_state" [ label = "checked_out_state" ];
+    "delta/ohio" [ label = "ohio" ];
+    "delta/collections_delta" [ label = "collections_delta" ];
+    "delta/gattungen" [ label = "gattungen" ];
+    "delta/heap" [ label = "heap" ];
+    "delta/typ_akte" [ label = "typ_akte" ];
+    "delta/sha_collections" [ label = "sha_collections" ];
+    "delta/thyme" [ label = "thyme" ];
+    "delta/kasten_akte" [ label = "kasten_akte" ];
+    "delta/schlussel" [ label = "schlussel" ];
+    "delta/etikett_akte" [ label = "etikett_akte" ];
+    "delta/zittish" [ label = "zittish" ];
+    "delta/collections_coding" [ label = "collections_coding" ];
+  }
+
+
+  subgraph "cluster_echo" {
+    rankdir = TB;
+    color = "#39ac64";
+    node [ color = "#39ac64" ];
+    edge [ color = "#39ac64" ];
+    label = "echo";
+    rank = min;
+    "echo/bezeichnung" [ label = "bezeichnung" ];
+    "echo/fd" [ label = "fd" ];
+    "echo/kennung" [ label = "kennung" ];
+    "echo/etikett" [ label = "etikett" ];
+    "echo/format" [ label = "format" ];
+  }
+
+
+  subgraph "cluster_foxtrot" {
+    rankdir = TB;
+    color = "#1f3c3a";
+    node [ color = "#1f3c3a" ];
+    edge [ color = "#1f3c3a" ];
+    label = "foxtrot";
+    rank = min;
+    "foxtrot/metadatei" [ label = "metadatei" ];
+    "foxtrot/hinweis_index" [ label = "hinweis_index" ];
+    "foxtrot/hinweis_index/v1" [ label = "hinweis_index/v1" ];
+    "foxtrot/hinweis_index/v0" [ label = "hinweis_index/v0" ];
+    "foxtrot/test_metadatei_io" [ label = "test_metadatei_io" ];
+    "foxtrot/kennung_fmt" [ label = "kennung_fmt" ];
+    "foxtrot/etiketten_path" [ label = "etiketten_path" ];
+  }
+
+
+  subgraph "cluster_golf" {
+    rankdir = TB;
+    color = "#0af375";
+    node [ color = "#0af375" ];
+    edge [ color = "#0af375" ];
+    label = "golf";
+    rank = min;
+    "golf/kennung_index" [ label = "kennung_index" ];
+    "golf/ennui" [ label = "ennui" ];
+    "golf/objekte_format" [ label = "objekte_format" ];
+    "golf/ennui_shas" [ label = "ennui_shas" ];
+  }
+
+
+  subgraph "cluster_hotel" {
+    rankdir = TB;
+    color = "#cb4fbe";
+    node [ color = "#cb4fbe" ];
+    edge [ color = "#cb4fbe" ];
+    label = "hotel";
+    rank = min;
+    "hotel/sku" [ label = "sku" ];
+    "hotel/matcher_proto" [ label = "matcher_proto" ];
+  }
+
+
+  subgraph "cluster_india" {
+    rankdir = TB;
+    color = "#61dcc2";
+    node [ color = "#61dcc2" ];
+    edge [ color = "#61dcc2" ];
+    label = "india";
+    rank = min;
+    "india/objekte_collections" [ label = "objekte_collections" ];
+    "india/erworben" [ label = "erworben" ];
+    "india/matcher" [ label = "matcher" ];
+    "india/sku_fmt" [ label = "sku_fmt" ];
+    "india/kasten" [ label = "kasten" ];
+    "india/query" [ label = "query" ];
+    "india/alfred" [ label = "alfred" ];
+  }
+
+
+  subgraph "cluster_juliett" {
+    rankdir = TB;
+    color = "#f01789";
+    node [ color = "#f01789" ];
+    edge [ color = "#f01789" ];
+    label = "juliett";
+    rank = min;
+    "juliett/to_merge" [ label = "to_merge" ];
+    "juliett/objekte" [ label = "objekte" ];
+    "juliett/konfig" [ label = "konfig" ];
+  }
+
+
+  subgraph "cluster_kilo" {
+    rankdir = TB;
+    color = "#eaf0ff";
+    node [ color = "#eaf0ff" ];
+    edge [ color = "#eaf0ff" ];
+    label = "kilo";
+    rank = min;
+    "kilo/zettel" [ label = "zettel" ];
+    "kilo/store_verzeichnisse" [ label = "store_verzeichnisse" ];
+    "kilo/objekte_formatter" [ label = "objekte_formatter" ];
+    "kilo/typ" [ label = "typ" ];
+    "kilo/objekte_store" [ label = "objekte_store" ];
+    "kilo/organize_text" [ label = "organize_text" ];
+    "kilo/organize_text2" [ label = "organize_text2" ];
+    "kilo/cwd" [ label = "cwd" ];
+  }
+
+
+  subgraph "cluster_lima" {
+    rankdir = TB;
+    color = "#953414";
+    node [ color = "#953414" ];
+    edge [ color = "#953414" ];
+    label = "lima";
+    rank = min;
+    "lima/bestandsaufnahme" [ label = "bestandsaufnahme" ];
+    "lima/changes" [ label = "changes" ];
+    "lima/organize_text" [ label = "organize_text" ];
+    "lima/akten" [ label = "akten" ];
+    "lima/changes2" [ label = "changes2" ];
+  }
+
+
+  subgraph "cluster_mike" {
+    rankdir = TB;
+    color = "#d9754d";
+    node [ color = "#d9754d" ];
+    edge [ color = "#d9754d" ];
+    label = "mike";
+    rank = min;
+    "mike/store_util" [ label = "store_util" ];
+  }
+
+
+  subgraph "cluster_november" {
+    rankdir = TB;
+    color = "#8dab6c";
+    node [ color = "#8dab6c" ];
+    edge [ color = "#8dab6c" ];
+    label = "november";
+    rank = min;
+    "november/store_objekten" [ label = "store_objekten" ];
+  }
+
+
+  subgraph "cluster_oscar" {
+    rankdir = TB;
+    color = "#bf868d";
+    node [ color = "#bf868d" ];
+    edge [ color = "#bf868d" ];
+    label = "oscar";
+    rank = min;
+    "oscar/umwelt" [ label = "umwelt" ];
+  }
+
+
+  subgraph "cluster_papa" {
+    rankdir = TB;
+    color = "#a4eedc";
+    node [ color = "#a4eedc" ];
+    edge [ color = "#a4eedc" ];
+    label = "papa";
+    rank = min;
+    "papa/user_ops" [ label = "user_ops" ];
+    "papa/remote_transfers" [ label = "remote_transfers" ];
+    "papa/remote_conn" [ label = "remote_conn" ];
+    "papa/remote_push" [ label = "remote_push" ];
+  }
+
+
+  subgraph "cluster_quebec" {
+    rankdir = TB;
+    color = "#e79e66";
+    node [ color = "#e79e66" ];
+    edge [ color = "#e79e66" ];
+    label = "quebec";
+    rank = min;
+    "quebec/commands" [ label = "commands" ];
+  }
+
+}
